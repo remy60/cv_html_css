@@ -1,69 +1,85 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-  <title>CV de Rémy</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="style1.css"/>
-</head>
-<body>
-  <div class="page">
-    <div class="infophoto">
-      <div class="info">
-        <p><strong>Rémy DUMOULIN</strong><br/>
-          Né le 7 janvier 1994</p>
-          <p>76 allée de la grimpette - 60400 Noyon<br/>
-            06.59.51.71.76<br/>
-            r.dumoulin@outlook.com</p>
-            <p>Permis B</p>
 
-          </div>
-          <div class="photo">
-            <img src ="remy1.JPG" alt="Photo cv"/>
-          </div>
+    <head>
+        <title>CV</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css"/>
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-lg-4 test1 ">
+                <img src ="/home/remy/cv/images/remy1.JPG" Alt="Photo"/>
+
+            </div>
+            <div class="col-lg-8 identité ">
+                <h2>Identité</h2>
+                <p>Dumoulin Rémy</p>
+                <p>Né le 7 janvier</p>
+                <p>60400 Noyon</p>
+                <p><img src="tel.png" Alt=""/>06.59.51.71...</p>
+
+            </div>
         </div>
-        <div class="section">
-          <h2>FORMATION</h2>
-          <div class="sec-gauche">
-            <p>Mai 2016</p>
-          </div>
-          <div class="sec-droite">
-            <p><span class="titre">Campus inovia</span><br/>
-              Formation dévellopeur WEB</p>
-            </div>
+        <div class="row">
 
-          </div>
-          <div class="section">
-            <h2>EXPERIENCES PROFESSIONELLES</h2>
-            <div class="sec-gauche" id="format-gauche">
-              <p>2015</p>
-              <p>2014</p>
-              <p>2012</p>
-              <p>2011</p>
-              <p>2009</p>
-            </div>
-            <div class="sec-droite">
-              <p><span class="titre">Parc médieval de Crisolles</span><br/>
-                Certification de Qualification Professionnel PAH (accrobranche).</p>
-                <p><span class="titre">Parc médieval de Crisolles</span><br/>
-                  Agent Polyvalent</p>
-                  <p><span class="titre">Lycée Pierre Méchain à Laon</span><br/>
-                    1ère STI2D , Option : Energie et Environnement</p>
-                    <p><span class="titre">  Lycée Pierre Méchain à Laon</span><br/>
-                      1ère STI GM , Option : Productique Mécanique.</p>
-                      <p><span class="titre">Collège FROEHLICHER à Sissone</span><br/>
-                        Brevet des collèges.</p>
-                      </div>
-                    </div>
-                    <div class="section">
-                      <h2>COMPETENCES INFORMATIQUES</h2>
-                      <div class="sec-gauche">
-                          <p>Informatique :</p>
-                        </div>
-                        <div class="sec-droite">
-                          <p>Maitrise de Git/github , Linux(Ubuntu) , Atom , Gimp , html5/css3 , PhP.
-                          </div>
-                        </div>
 
-                      </div>
-                    </body>
-                    </html>
+            <div class="col-lg-4 exp ">
+                <h2>Experiences professionnelles</h2>
+
+
+                <p><strong>2014</strong> : Agent Polyvalent au Parc Carisiolas.</p>
+                <p>Encadrements de groupes</p>
+                <p>Entretiens Espaces verts</p>
+                <p>Restauration Rapide</p>
+                <p>Billeterie</p>
+
+
+            </div>
+            <div class="col-lg-8 formation ">
+                <h2>Formation</h2>
+                <p>Actuellement en formation devellopeur WEB.</p>
+                <p><strong>2012</strong> : 1ère STI2D , Option : Energie et Environnement</p>
+                <p><strong>2011</strong> : 1ère STI GM , Option : Productique Mécanique</p>
+                <p><strong>2009</strong> : Brevet des collèges</p>
+            </div>
+        </div>
+        <div class="row fondhi">
+            <h2>Compétences informatiques</h2>
+            <div class="col-lg-6">
+                <div class="para">
+                    <h3>Langages</h3><br>
+                    <img src="/home/remy/cv/images/html.png" Alt=""/><figure><figcaption>HTML 5</figcaption></figure><br>
+                    <progress value="30" max="100">30%</progress>..30%<br><br>
+                    <img src="/home/remy/cv/images/css.png" Alt=""/><figure><figcaption>CSS 3</figcaption></figure> <br>
+                    <progress value="30"  max="100">30%</progress>..30%<br><br>
+                    <img src="/home/remy/cv/images/php.png" Alt=""/><figure><figcaption>PHP</figcaption></figure> <br>
+                    <progress value="10"  max="100">25%</progress>..10%<br><br>
+                    <img src="/home/remy/cv/images/js.png" Alt=""/><figure><figcaption>JavaScript</figcaption></figure> <br>
+                    <progress value="1"  max="100">1%</progress>..1%<br><br>
+             </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="progressions">
+                    <h3>Logiciels</h3><br>
+                    <img src="/home/remy/cv/images/atom.png" Alt=""/><figure><figcaption>Atom</figcaption></figure><br>
+                    <progress value="50"  max="100">0%</progress>..50%<br><br>
+                    <img src="/home/remy/cv/images/nb.png" Alt=""/><figure><figcaption>NetBeans</figcaption></figure> <br>
+                    <progress value="50"  max="100">0%</progress>..50%<br><br>
+                    <img src="/home/remy/cv/images/github.png" Alt=""/><figure><figcaption>Github</figcaption></figure> <br>
+                    <progress value="50"  max="100">0%</progress>..50%<br><br>
+                    <img src="/home/remy/cv/images/gimp.png" Alt=""/><figure><figcaption>Gimp</figcaption></figure> <br>
+                    <progress value="50"  max="100">0%</progress>..50%<br><br>
+
+
+                </div>
+
+            </div>
+        </div>
+     
+</body>
+</html>
+
+
